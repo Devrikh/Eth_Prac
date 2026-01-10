@@ -37,6 +37,7 @@ export const mintTokens = async (fromAddress: string, amount: number) => {
   console.log("Minting tokens");
 };
 
+
 export const burnTokens = async (
   fromAddress: string,
   toAddress: string,
